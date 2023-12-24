@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Etiketleri</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="ad">Adınız:</label>
+        <input type="text" id="ad" name="ad" required><br><br>
+
+        <label for="soyad">Soyadınız:</label>
+        <input type="text" id="soyad" name="soyad"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"><br><br>
+
+        <label for="dagumTarihi">Doğum Tarihiniz:</label>
+        <input type="date" name="dagumTarihi" id="dagumTarihi"><br><br>
+
+        <label for="sehir">Şehir:</label>
+        <select name="sehir" id="sehir">
+        <option value="ankara">Ankara</option>
+        <option value="istanbul">İstabul</option>
+        <option value="izmir">İzmir</option>
+        </select><br><br>
+
+        <label for="cinsiyet">Cinsiyet:</label>
+        <input type="radio" id="erkek" name="cinsiyet" value="erkek">
+        <label for="erkek">Erkek</label>
+        <input type="radio" name="cinsiyet" id="kadin" value="kadin">
+        <label for="kadin">Kadın</label><br><br>
+
+        <label for="mesaj">Hakkınızda:</label><br>
+        <textarea id="mesaj" name="mesaj" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Gonder">
+    </form>
+</body>
+</html>
